@@ -1,0 +1,48 @@
+- !<AssetImportMetadata/a61075d4-5a48-4835-b8e9-64c993df623c>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 03473e67-e7d8-487f-9456-8ccbd011fa5f
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 03473e67-e7d8-487f-9456-8ccbd011fa5f
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> b84dadad-6791-430d-afd1-8b7a17761465
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/06a554a2-996c-422e-a503-ecc680f8cfc3>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/b84dadad-6791-430d-afd1-8b7a17761465>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    addBackPoints: false
+    addInlinePoints: false
+    backMeshes: false
+    frontMeshes: false
+    innerMeshes: false
+    instanceObject: false
+    instanceParent: false
+    mirrorPoints: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - instanceObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      instanceParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      frontMeshes: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      backMeshes: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      innerMeshes: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      mirrorPoints: true
+      addBackPoints: false
+      addInlinePoints: true
+  ScriptTypes:
+    -
+      {}

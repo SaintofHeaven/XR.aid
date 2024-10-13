@@ -1,0 +1,1983 @@
+- !<ObjectPrefab/1e63b30d-83f8-43c6-b3d4-e505cd4b7e41>
+  PackagePath: ""
+  objects:
+    - !<own> 091f0e18-fe22-4714-b6ff-5edef69a4d1a
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/056d7577-bf79-4842-91aa-f8704a5ea131>
+  PrefabRemaps:
+    []
+  Name: Box 7
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -9.289611, y: 45.792233, z: 40.227341}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> a448346a-e38a-433f-be3c-0c91447faed3
+- !<SceneObject/067ad753-7803-4ab0-a4bf-db28e9fcc34c>
+  PrefabRemaps:
+    []
+  Name: Cactus_Spike2
+  Enabled: false
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.000004, y: 1.251160, z: -0.000015}
+    rotation: {x: -90.000000, y: 50.134697, z: -0.000000}
+    scale: {x: 224.468155, y: 224.468155, z: 145.859253}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 71136213-b7ab-4812-9bfe-a836bb519827
+- !<SceneObject/07f20795-0766-43f4-9b98-d04f23c33913>
+  PrefabRemaps:
+    []
+  Name: Box 35
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -23.299297, y: 111.859344, z: -8.703552}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 9f2e263e-7338-4cbe-88fb-9e670a0ce670
+- !<SceneObject/091f0e18-fe22-4714-b6ff-5edef69a4d1a>
+  PrefabRemaps:
+    []
+  Name: Objects On Body Mesh__PUT_UNDER_MAIN_CAMERA
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> b461a5dc-4bf2-4f8a-bb91-d186944ffecb
+    - !<own> 48654085-d4d6-4c6a-8637-16fde3bfd420
+  Components:
+    - !<own> bc6dd800-d0ef-4896-a522-735864ec50bc
+- !<PinToMeshComponent/098371f6-5a9a-4afa-beba-332222f3b8fe>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.308013, y: 0.327319}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<SceneObject/09cf5750-011c-4025-8b08-ddf013149b45>
+  PrefabRemaps:
+    []
+  Name: Back
+  Enabled: false
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 992d560c-37ee-4951-88c4-64c8a19e83d0
+    - !<own> cd4cdccc-3546-436d-b0b7-c39a53b15e89
+    - !<own> 94b2e8ad-3246-4670-bfef-dace2b459443
+    - !<own> b583b194-1756-454f-95bd-dea12147cd70
+    - !<own> 247aee80-6b28-4829-a40d-880e45b9e6e3
+    - !<own> f3890fee-815b-4106-b9f8-2417bf6a47df
+    - !<own> 0c3951a5-e1aa-489d-bb76-2197cad036f5
+    - !<own> cdfd8238-685b-4378-a538-62636d688e7d
+    - !<own> 620feb04-5ae3-4840-bcd0-a10345d261b4
+    - !<own> ab9ce4cf-f49b-403c-8fb2-47074815d884
+    - !<own> dbd43204-4163-416b-ab13-a10131d5a5c1
+    - !<own> 0a59958a-9958-4582-be9f-084bff4a6ace
+  Components:
+    []
+- !<PinToMeshComponent/0a218b16-5a48-466d-a8bd-bbb382eeb8b1>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.136886, y: 0.872378}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<SceneObject/0a59958a-9958-4582-be9f-084bff4a6ace>
+  PrefabRemaps:
+    []
+  Name: Box 15
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -8.571115, y: 80.335938, z: 9.414337}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1c3638bb-92e1-4539-975f-105d65ddafa6
+- !<PinToMeshComponent/0a9d8186-8e25-4b5d-97f1-f6fe0417fc06>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.400731, y: 0.260957}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<SceneObject/0b27ea8c-a395-442d-a0a2-7c4af1d174e3>
+  PrefabRemaps:
+    []
+  Name: Box 55
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -32.533867, y: 100.925095, z: 9.155247}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 0a218b16-5a48-466d-a8bd-bbb382eeb8b1
+- !<SceneObject/0c3951a5-e1aa-489d-bb76-2197cad036f5>
+  PrefabRemaps:
+    []
+  Name: Box 30
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -5.803708, y: 152.317108, z: -35.584576}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 2d59bf58-b3c0-4dca-aebe-e31c60b693d7
+- !<SceneObject/0d58836c-75bc-4479-8c89-0149106af0ff>
+  PrefabRemaps:
+    []
+  Name: Box 17
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -9.240077, y: 81.768570, z: 31.120621}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 60ae2e6a-ec41-4c99-876e-5beb60ca4be1
+- !<SceneObject/0d9e4d66-7ad7-4149-ac3c-600a1e0f2b77>
+  PrefabRemaps:
+    []
+  Name: Box 34
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -17.462774, y: 125.879562, z: -22.832256}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 842ccb98-8c29-48ce-9739-b1266ce17a1a
+- !<SceneObject/0daf285d-6782-4e46-9cc1-3dad2850658a>
+  PrefabRemaps:
+    []
+  Name: Box 62
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -6.307655, y: 156.870743, z: -26.196732}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 29ca0b07-7714-4dc8-ac7a-b4a04c676c53
+- !<PinToMeshComponent/0f46045d-9759-49d4-9816-2d5f9b6d2d3a>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.179749, y: 0.918597}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<PinToMeshComponent/0f632ddf-a270-4c32-8de7-bb90d8b242de>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.251063, y: 0.636860}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<PinToMeshComponent/0fa85ffd-5da6-4cec-b545-d46cdf1a8ed6>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.207037, y: 0.159187}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<SceneObject/1463afc1-cf63-4dd7-8118-8162116a7f9d>
+  PrefabRemaps:
+    []
+  Name: Box 8
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -14.633372, y: 49.555977, z: 45.426888}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 0fa85ffd-5da6-4cec-b545-d46cdf1a8ed6
+- !<SceneObject/164a673f-bfaa-4606-91d2-35b9da31904d>
+  PrefabRemaps:
+    []
+  Name: Box 40
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -31.461737, y: 109.459030, z: -0.352695}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 5d6790dc-14d5-4354-b24d-464f579cf60c
+- !<PinToMeshComponent/1655edf0-d71f-48da-96ad-996011ba52ad>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.151512, y: 0.892912}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<PinToMeshComponent/16874635-ce50-435f-8da7-c48f698ab49d>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.147576, y: 0.960678}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<SceneObject/17fd838f-6e21-498a-825c-55897b04a61f>
+  PrefabRemaps:
+    []
+  Name: Box 3
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -13.739636, y: 29.823174, z: 50.610367}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1ea664af-284d-48bc-9d81-ab53f2976508
+- !<SceneObject/18b8c102-c4fd-4f7a-9244-571cd1792086>
+  PrefabRemaps:
+    []
+  Name: Box 45
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -25.487331, y: 110.462341, z: -12.244028}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> e2a19673-f720-40c4-abe5-aafdf75ede30
+- !<SceneObject/19a607ee-4639-4536-ac81-fa696f2a11d8>
+  PrefabRemaps:
+    []
+  Name: Box 57
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -17.152502, y: 77.761978, z: 24.790916}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 098371f6-5a9a-4afa-beba-332222f3b8fe
+- !<PinToMeshComponent/1c3638bb-92e1-4539-975f-105d65ddafa6>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.277781, y: 0.425348}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<PinToMeshComponent/1ea664af-284d-48bc-9d81-ab53f2976508>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.156562, y: 0.066572}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<PinToMeshComponent/237707bb-3d8c-407c-a4f1-90be43500101>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.371418, y: 0.639716}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<SceneObject/247aee80-6b28-4829-a40d-880e45b9e6e3>
+  PrefabRemaps:
+    []
+  Name: Box 27
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -5.884682, y: 116.222466, z: -20.727932}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> d0bc080c-187b-41e9-aefa-8aabd7bb9b0b
+- !<SceneObject/24cda739-8ba1-4237-9713-4494470aa2d0>
+  PrefabRemaps:
+    []
+  Name: Box 31
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -6.708705, y: 140.977341, z: -25.189198}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 6d50b44a-eb96-426e-86a4-c7b05b16fede
+- !<SceneObject/25a336cf-c251-400e-b670-8164b2925927>
+  PrefabRemaps:
+    []
+  Name: Body Mesh
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+- !<SceneObject/2975813f-e08b-4295-9635-f114e85fc613>
+  PrefabRemaps:
+    []
+  Name: Box 49
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -22.134024, y: 130.557632, z: -23.096111}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 497282e5-6967-483c-95c7-9d41f0cc4083
+- !<PinToMeshComponent/29ca0b07-7714-4dc8-ac7a-b4a04c676c53>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.473331, y: 0.906980}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<PinToMeshComponent/2a260a56-a1b7-4a5a-b974-86c3dc4992f7>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.423561, y: 0.881534}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<SceneObject/2cb61a0c-98c4-4472-af05-4e62350bce09>
+  PrefabRemaps:
+    []
+  Name: Box 9
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -10.001551, y: 68.125290, z: 38.397896}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ee02280c-3143-421c-880b-85c1d948f8de
+- !<PinToMeshComponent/2d59bf58-b3c0-4dca-aebe-e31c60b693d7>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.436048, y: 0.926931}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<PinToMeshComponent/2dc15c4c-22a3-448c-89a6-aaa18d71af45>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.324616, y: 0.510928}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<SceneObject/2f08c38a-d814-4fff-b7ca-0f164ff3ca47>
+  PrefabRemaps:
+    []
+  Name: Box 43
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -29.259569, y: 113.183281, z: -11.575834}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> c6c02ab5-4bb1-4a4c-9b5e-6a2310bff3fa
+- !<ObjectTracking3D/3458f650-ec5b-4545-99e9-e9bb1170fd59>
+  PrefabRemaps:
+    []
+  Name: Object Tracking 3D
+  Enabled: true
+  ObjectIndex: 0
+  TrackingMode: ProportionsAndPose
+  TrackPosition: true
+  TrackingAsset: !<reference> 1f4e71b5-2a76-4580-bf0f-e675b45f77fd
+  AttachmentLabels:
+    []
+  AttachedObjects:
+    []
+- !<SceneObject/36438977-108c-4012-9a8d-90db62fe636e>
+  PrefabRemaps:
+    []
+  Name: Box 54
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -43.308304, y: 97.151237, z: 13.964111}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 16874635-ce50-435f-8da7-c48f698ab49d
+- !<PinToMeshComponent/39eb5ff5-57b4-4da5-97b8-2bfeb061f57c>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.457926, y: 0.788083}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<SceneObject/3f6d5fc6-b28c-4256-b846-46021541c6f3>
+  PrefabRemaps:
+    []
+  Name: Box 42
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -28.072495, y: 106.850082, z: -0.517525}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ded27678-0873-4451-b5af-a84a0b618a7f
+- !<PinToMeshComponent/3ffcbcd2-b3f0-4fdf-b24c-58ed8b32000b>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.460296, y: 0.487134}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<SceneObject/4045d885-4574-425e-a916-39eb7076a4d0>
+  PrefabRemaps:
+    []
+  Name: Box 29
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -17.397707, y: 135.999344, z: -24.760328}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> f6590d95-53ae-40ed-a4b8-c9a94daa684f
+- !<SceneObject/4303a0b3-41cf-4a2a-a579-33401d017def>
+  PrefabRemaps:
+    []
+  Name: Box 39
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -33.129818, y: 106.935669, z: -2.724617}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> e29f5480-456a-4a83-8ae6-7444c43a3861
+- !<PinToMeshComponent/43161019-f574-466a-98d6-9c21b1a04492>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.264118, y: 0.759499}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<SceneObject/48654085-d4d6-4c6a-8637-16fde3bfd420>
+  PrefabRemaps:
+    []
+  Name: Instantiate On Body
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 9d2cc5a1-b17f-480f-aee2-a30928047d94
+    - !<own> 55a810aa-2e20-43d0-80f7-85c9f64259f0
+  Components:
+    []
+- !<PinToMeshComponent/497282e5-6967-483c-95c7-9d41f0cc4083>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.350982, y: 0.830669}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<PinToMeshComponent/4bb2ad3b-e0c6-4395-b8ac-fca1a7dcd8db>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.082029, y: 0.138185}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<SceneObject/4f6c8a4c-ead7-4981-bf83-4e71001054e7>
+  PrefabRemaps:
+    []
+  Name: Box 46
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -22.807278, y: 117.083244, z: -18.346245}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 9d84f590-df4c-4b25-9488-5964dc805e0c
+- !<SceneObject/51552ae0-9f0e-4c27-b7be-11f1d25372f0>
+  PrefabRemaps:
+    []
+  Name: Box 21
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -15.026206, y: 112.410484, z: -2.570099}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 70d63eb6-a584-433d-81a0-aa342218370c
+- !<SceneObject/53609b26-991e-4c94-b0f1-eadb21da14eb>
+  PrefabRemaps:
+    []
+  Name: Cactus_Spike1
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.000015, y: 1.251160, z: -0.000015}
+    rotation: {x: -90.000000, y: -0.000000, z: -0.000000}
+    scale: {x: 180.757095, y: 180.757111, z: 187.716904}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> fdf00616-baf5-43b4-ac81-053bd778156a
+- !<SceneObject/55a810aa-2e20-43d0-80f7-85c9f64259f0>
+  PrefabRemaps:
+    []
+  Name: InstancedObj_EDIT_ME
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -14.450480, y: 40.582226, z: 76.788460}
+    rotation: {x: -78.305702, y: 34.746128, z: 135.385651}
+    scale: {x: 0.158841, y: 0.158841, z: 0.158841}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 53609b26-991e-4c94-b0f1-eadb21da14eb
+    - !<own> 067ad753-7803-4ab0-a4bf-db28e9fcc34c
+  Components:
+    - !<own> d8f47d8a-b186-4806-a6c9-047e7b70e36e
+- !<SceneObject/5838155f-190a-4e44-b819-da531606aee7>
+  PrefabRemaps:
+    []
+  Name: Box 52
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -19.532017, y: 117.713974, z: -14.457512}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 43161019-f574-466a-98d6-9c21b1a04492
+- !<SceneObject/5b2c5a0d-553c-44f5-ad40-b9a04744cc99>
+  PrefabRemaps:
+    []
+  Name: Box 51
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -23.610386, y: 121.231125, z: -10.872814}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 922e6eb7-7c89-4c8c-bf21-5bf881178bc3
+- !<PinToMeshComponent/5d6790dc-14d5-4354-b24d-464f579cf60c>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.199006, y: 0.851886}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<SceneObject/5f62b0c6-25e9-4ce4-b374-0fd73b7cf3f6>
+  PrefabRemaps:
+    []
+  Name: Box 38
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -37.041340, y: 100.852631, z: 6.424713}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 0f46045d-9759-49d4-9816-2d5f9b6d2d3a
+- !<PinToMeshComponent/60ae2e6a-ec41-4c99-876e-5beb60ca4be1>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.365399, y: 0.295791}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<SceneObject/620feb04-5ae3-4840-bcd0-a10345d261b4>
+  PrefabRemaps:
+    []
+  Name: Box 22
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -5.728851, y: 106.894745, z: -12.425684}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> a24dd8f5-276d-4263-9900-12562d60d05f
+- !<PinToMeshComponent/657eb1a0-bb90-4c51-9ad4-657bbafe12a3>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.128410, y: 0.091417}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<SceneObject/663f9da7-2d49-4003-92be-ed1811b57b0f>
+  PrefabRemaps:
+    []
+  Name: Box 53
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -34.963066, y: 102.127411, z: 9.236259}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1655edf0-d71f-48da-96ad-996011ba52ad
+- !<PinToMeshComponent/664364c7-fec7-48d5-8223-63a03dcc6b9e>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.104572, y: 0.916041}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<SceneObject/66ba47f4-f36e-4e35-a130-06ed54a239e7>
+  PrefabRemaps:
+    []
+  Name: Box 36
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -30.435707, y: 103.431572, z: -1.945633}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 6e6bf061-6b5b-414b-b88a-3d9cb0bd8c2a
+- !<PinToMeshComponent/67ab9a0b-fa0d-4a8a-9758-228f92515f43>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.363102, y: 0.405339}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<SceneObject/687ead32-15ca-4e7e-8fdd-2b8a85d797c2>
+  PrefabRemaps:
+    []
+  Name: Box 10
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -17.120014, y: 67.417023, z: 31.678085}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> cdad6fc1-561f-465b-a7e9-79799faeb38d
+- !<PinToMeshComponent/694cb8df-545d-4931-a95b-48da78fce4df>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.447847, y: 0.634729}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<PinToMeshComponent/6d50b44a-eb96-426e-86a4-c7b05b16fede>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.429256, y: 0.830734}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<PinToMeshComponent/6e6bf061-6b5b-414b-b88a-3d9cb0bd8c2a>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.154523, y: 0.803267}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<SceneObject/6ff3f470-cec7-48c8-8620-d2f4fd80f8ec>
+  PrefabRemaps:
+    []
+  Name: Box 48
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -17.578701, y: 123.036720, z: -16.202971}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> d8d7c0b9-8762-4ca3-9d71-c74c1e93dbca
+- !<PinToMeshComponent/70d63eb6-a584-433d-81a0-aa342218370c>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.398883, y: 0.572662}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<RenderMeshVisual/71136213-b7ab-4812-9bfe-a836bb519827>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 1a169ed2-abf7-4c4f-8145-73195f61b787
+  Mesh: !<reference> d20bdde5-6c3b-4853-909d-a2440db32874
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/7c000ca9-faec-4777-ae82-12a2cbb90b8d>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: Receiver
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 91874d95-b3fb-4dc6-95ae-f811610bae10
+  Mesh: !<reference> fb7a113d-afd6-488b-ab4b-7164a7a3bbf7
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/7d961776-1830-4dc2-b9b2-551bc82d75ce>
+  PrefabRemaps:
+    []
+  Name: Box 47
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -26.239481, y: 121.913040, z: -16.668081}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> da25c640-e946-4102-bae9-2d93465f8c19
+- !<SceneObject/7e517293-fc35-49e3-9780-0f8d4ed064ed>
+  PrefabRemaps:
+    []
+  Name: Box 19
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -16.994045, y: 101.040894, z: 3.227280}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> c0b98bfa-dbd6-49bb-b20d-b4679d58ccb7
+- !<PinToMeshComponent/7fa046ac-7405-4351-a7a0-6da9ca0eed63>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.327619, y: 0.202020}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<SceneObject/83713b06-e56b-4df1-bc50-d2dc01c9890c>
+  PrefabRemaps:
+    []
+  Name: Box 63
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -5.282138, y: 150.054962, z: -21.062943}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> a5d49983-df6a-4554-8057-fea46824af9a
+- !<PinToMeshComponent/8381e581-c3cc-4725-9616-a0ce49fdb6f5>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.252138, y: 0.361520}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<PinToMeshComponent/842ccb98-8c29-48ce-9739-b1266ce17a1a>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.306287, y: 0.696318}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<PinToMeshComponent/8f702ed7-9641-43ae-ace0-c7255f5decc8>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.246310, y: 0.818369}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<PinToMeshComponent/922e6eb7-7c89-4c8c-bf21-5bf881178bc3>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.280112, y: 0.797554}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<SceneObject/94b2e8ad-3246-4670-bfef-dace2b459443>
+  PrefabRemaps:
+    []
+  Name: Box 11
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -11.681090, y: 63.342999, z: 27.157715}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ea2c865d-7f21-4f8c-af47-001c01d7455b
+- !<PinToMeshComponent/9823d873-b25a-413a-89fa-310da1a70978>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.099414, y: 0.112846}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<SceneObject/992d560c-37ee-4951-88c4-64c8a19e83d0>
+  PrefabRemaps:
+    []
+  Name: Box 4
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -16.630741, y: 27.542004, z: 46.463112}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 4bb2ad3b-e0c6-4395-b8ac-fca1a7dcd8db
+- !<PinToMeshComponent/9c160aa1-0f0f-4996-8bd1-50353d56b3d2>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.486506, y: 0.320946}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<SceneObject/9d2cc5a1-b17f-480f-aee2-a30928047d94>
+  PrefabRemaps:
+    []
+  Name: "ReferencePoints [DO_NOT_DELETE]"
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 40.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> ac79619f-29ef-42dd-bf56-abff9e5cae84
+    - !<own> 09cf5750-011c-4025-8b08-ddf013149b45
+    - !<own> fc86a666-df05-4b55-9429-230bb44c3f27
+  Components:
+    []
+- !<PinToMeshComponent/9d84f590-df4c-4b25-9488-5964dc805e0c>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.249492, y: 0.733030}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<SceneObject/9d93a039-62a9-4a0f-8e53-1c097d8bd478>
+  PrefabRemaps:
+    []
+  Name: Box 13
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -16.408646, y: 119.699272, z: -11.454098}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 237707bb-3d8c-407c-a4f1-90be43500101
+- !<PinToMeshComponent/9f2e263e-7338-4cbe-88fb-9e670a0ce670>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.225600, y: 0.788257}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<PinToMeshComponent/a24dd8f5-276d-4263-9900-12562d60d05f>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.333557, y: 0.569261}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<PinToMeshComponent/a448346a-e38a-433f-be3c-0c91447faed3>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.234170, y: 0.128661}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<PinToMeshComponent/a5d49983-df6a-4554-8057-fea46824af9a>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.472227, y: 0.864810}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<SceneObject/a9252a39-fed1-46c5-a733-ef6309378e17>
+  PrefabRemaps:
+    []
+  Name: Box 60
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -5.820980, y: 139.230560, z: -19.612354}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 39eb5ff5-57b4-4da5-97b8-2bfeb061f57c
+- !<SceneObject/ab9ce4cf-f49b-403c-8fb2-47074815d884>
+  PrefabRemaps:
+    []
+  Name: Box 18
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -8.150854, y: 96.045464, z: -5.117573}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 2dc15c4c-22a3-448c-89a6-aaa18d71af45
+- !<SceneObject/ac79619f-29ef-42dd-bf56-abff9e5cae84>
+  PrefabRemaps:
+    []
+  Name: Front
+  Enabled: false
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> cbcff6d5-6710-4112-89c3-5c5ac6536717
+    - !<own> e82de8a5-62d1-475c-ba4a-b7ee94490ed5
+    - !<own> f8de46e6-7778-48d1-a95c-e6f8af8ab0cf
+    - !<own> 1463afc1-cf63-4dd7-8118-8162116a7f9d
+    - !<own> 2cb61a0c-98c4-4472-af05-4e62350bce09
+    - !<own> 687ead32-15ca-4e7e-8fdd-2b8a85d797c2
+    - !<own> 9d93a039-62a9-4a0f-8e53-1c097d8bd478
+    - !<own> e8f90196-0121-4eff-aa6d-c1746a872a23
+    - !<own> 4045d885-4574-425e-a916-39eb7076a4d0
+    - !<own> cbbcb3b7-4a0c-4d3b-ba01-7b70c2f5bb81
+    - !<own> c99c8788-6489-4522-82c6-72bf9aed91a8
+    - !<own> 5f62b0c6-25e9-4ce4-b374-0fd73b7cf3f6
+    - !<own> 36438977-108c-4012-9a8d-90db62fe636e
+    - !<own> dde97767-9235-4d59-a255-74fb8ede8d32
+    - !<own> 663f9da7-2d49-4003-92be-ed1811b57b0f
+    - !<own> 66ba47f4-f36e-4e35-a130-06ed54a239e7
+    - !<own> 164a673f-bfaa-4606-91d2-35b9da31904d
+    - !<own> 4303a0b3-41cf-4a2a-a579-33401d017def
+    - !<own> 18b8c102-c4fd-4f7a-9244-571cd1792086
+    - !<own> c826a83c-d6bc-4927-b2bc-18ec807dd532
+    - !<own> 2f08c38a-d814-4fff-b7ca-0f164ff3ca47
+    - !<own> 0d9e4d66-7ad7-4149-ac3c-600a1e0f2b77
+    - !<own> 7d961776-1830-4dc2-b9b2-551bc82d75ce
+    - !<own> 2975813f-e08b-4295-9635-f114e85fc613
+    - !<own> 4f6c8a4c-ead7-4981-bf83-4e71001054e7
+    - !<own> 5b2c5a0d-553c-44f5-ad40-b9a04744cc99
+    - !<own> c2166a9b-ebf8-4fba-9471-fa690d11a9d4
+    - !<own> 24cda739-8ba1-4237-9713-4494470aa2d0
+    - !<own> 0daf285d-6782-4e46-9cc1-3dad2850658a
+    - !<own> 83713b06-e56b-4df1-bc50-d2dc01c9890c
+    - !<own> a9252a39-fed1-46c5-a733-ef6309378e17
+    - !<own> d80d66bc-37f4-4cc3-88ac-f89064b73adb
+    - !<own> bd749e8a-ba51-4a49-b0d1-21402cdbd494
+    - !<own> 51552ae0-9f0e-4c27-b7be-11f1d25372f0
+    - !<own> b8db93d7-09d5-4573-bb8c-9adfd359da3c
+    - !<own> 7e517293-fc35-49e3-9780-0f8d4ed064ed
+    - !<own> 0d58836c-75bc-4479-8c89-0149106af0ff
+    - !<own> 19a607ee-4639-4536-ac81-fa696f2a11d8
+    - !<own> eb6faacd-0cca-468f-a248-ea70d6815f0c
+    - !<own> f4b8ebd4-800f-441d-b8f6-56a631de53a1
+  Components:
+    []
+- !<PinToMeshComponent/acd097b4-5fae-4c45-936d-b1584993452b>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.397385, y: 0.860238}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<SceneObject/adf5db3c-ac85-4dd2-9196-ac89d46984ed>
+  PrefabRemaps:
+    []
+  Name: Box 12
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -4.702782, y: 65.171906, z: 33.159470}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 7fa046ac-7405-4351-a7a0-6da9ca0eed63
+- !<PinToMeshComponent/b126b3a0-b939-49c9-a75b-e5dd389cafb1>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.414045, y: 0.373967}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<PinToMeshComponent/b152a05c-96aa-40c0-971b-4406accdfb02>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.471390, y: 0.554415}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<SceneObject/b461a5dc-4bf2-4f8a-bb91-d186944ffecb>
+  PrefabRemaps:
+    []
+  Name: 3D Body Tracking
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -90.000000, y: -50.000000, z: -60.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 25a336cf-c251-400e-b670-8164b2925927
+  Components:
+    - !<own> 3458f650-ec5b-4545-99e9-e9bb1170fd59
+- !<SceneObject/b583b194-1756-454f-95bd-dea12147cd70>
+  PrefabRemaps:
+    []
+  Name: Box 25
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -6.507153, y: 126.897591, z: -27.917471}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 0f632ddf-a270-4c32-8de7-bb90d8b242de
+- !<SceneObject/b8db93d7-09d5-4573-bb8c-9adfd359da3c>
+  PrefabRemaps:
+    []
+  Name: Box 20
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -7.253411, y: 106.805954, z: 13.914970}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 3ffcbcd2-b3f0-4fdf-b24c-58ed8b32000b
+- !<ScriptComponent/bc6dd800-d0ef-4896-a522-735864ec50bc>
+  PrefabRemaps:
+    []
+  Name: InstantiateObjectsOnMesh
+  Enabled: true
+  ScriptAsset: !<reference> 03473e67-e7d8-487f-9456-8ccbd011fa5f
+  ScriptInputsDefault:
+    mirrorPoints: true
+    addBackPoints: true
+    addInlinePoints: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      instanceObject: !<reference.SceneObject> 55a810aa-2e20-43d0-80f7-85c9f64259f0
+      instanceParent: !<reference.SceneObject> b461a5dc-4bf2-4f8a-bb91-d186944ffecb
+      frontMeshes: !<reference.SceneObject> ac79619f-29ef-42dd-bf56-abff9e5cae84
+      backMeshes: !<reference.SceneObject> 09cf5750-011c-4025-8b08-ddf013149b45
+      innerMeshes: !<reference.SceneObject> fc86a666-df05-4b55-9429-230bb44c3f27
+      mirrorPoints: true
+      addBackPoints: false
+      addInlinePoints: true
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/bd749e8a-ba51-4a49-b0d1-21402cdbd494>
+  PrefabRemaps:
+    []
+  Name: Box 23
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -5.367114, y: 116.822830, z: 8.497700}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b152a05c-96aa-40c0-971b-4406accdfb02
+- !<PinToMeshComponent/c0b98bfa-dbd6-49bb-b20d-b4679d58ccb7>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.387159, y: 0.496202}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<SceneObject/c2166a9b-ebf8-4fba-9471-fa690d11a9d4>
+  PrefabRemaps:
+    []
+  Name: Box 50
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -20.253241, y: 129.605743, z: -14.877905}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> e0cc4a3f-a222-4603-a0ee-776901e36c64
+- !<PinToMeshComponent/c6c02ab5-4bb1-4a4c-9b5e-6a2310bff3fa>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.264867, y: 0.858809}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<PinToMeshComponent/c7c1bdbb-0270-4820-a64a-fa3fe412b68a>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.119404, y: 0.841696}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<SceneObject/c826a83c-d6bc-4927-b2bc-18ec807dd532>
+  PrefabRemaps:
+    []
+  Name: Box 44
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -27.010530, y: 115.142883, z: -7.962620}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 8f702ed7-9641-43ae-ace0-c7255f5decc8
+- !<PinToMeshComponent/c8538f4c-0cfb-44b8-a1b4-dc111f2c2400>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.061310, y: 0.864057}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<SceneObject/c99c8788-6489-4522-82c6-72bf9aed91a8>
+  PrefabRemaps:
+    []
+  Name: Box 41
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -39.569843, y: 95.868317, z: 16.437565}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> c8538f4c-0cfb-44b8-a1b4-dc111f2c2400
+- !<SceneObject/cb4c1d51-d9aa-4ef0-baf8-fa9e8fbc3811>
+  PrefabRemaps:
+    []
+  Name: Box 58
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -3.147045, y: 76.518242, z: 26.044472}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 0a9d8186-8e25-4b5d-97f1-f6fe0417fc06
+- !<SceneObject/cbbcb3b7-4a0c-4d3b-ba01-7b70c2f5bb81>
+  PrefabRemaps:
+    []
+  Name: Box 32
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -34.598934, y: 99.375031, z: 7.014614}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> c7c1bdbb-0270-4820-a64a-fa3fe412b68a
+- !<SceneObject/cbcff6d5-6710-4112-89c3-5c5ac6536717>
+  PrefabRemaps:
+    []
+  Name: Box
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -20.442297, y: 29.723492, z: 49.979828}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 9823d873-b25a-413a-89fa-310da1a70978
+- !<SceneObject/cd4cdccc-3546-436d-b0b7-c39a53b15e89>
+  PrefabRemaps:
+    []
+  Name: Box 6
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -14.976118, y: 44.560066, z: 34.201134}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ce04b168-8d62-4033-95f2-025c15465274
+- !<PinToMeshComponent/cdad6fc1-561f-465b-a7e9-79799faeb38d>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.254462, y: 0.268194}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<SceneObject/cdfd8238-685b-4378-a538-62636d688e7d>
+  PrefabRemaps:
+    []
+  Name: Box 61
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -4.884937, y: 145.550720, z: -30.153778}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 2a260a56-a1b7-4a5a-b974-86c3dc4992f7
+- !<PinToMeshComponent/ce04b168-8d62-4033-95f2-025c15465274>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.145303, y: 0.216508}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<PinToMeshComponent/ce11487c-82c0-43b1-ac2f-24491f5894be>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.175525, y: 0.185837}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<PinToMeshComponent/d0bc080c-187b-41e9-aefa-8aabd7bb9b0b>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.309487, y: 0.598744}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<SceneObject/d80d66bc-37f4-4cc3-88ac-f89064b73adb>
+  PrefabRemaps:
+    []
+  Name: Box 26
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -9.189246, y: 125.738914, z: -0.736374}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 694cb8df-545d-4931-a95b-48da78fce4df
+- !<PinToMeshComponent/d8d7c0b9-8762-4ca3-9d71-c74c1e93dbca>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.296347, y: 0.751508}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<PinToMeshComponent/d8f47d8a-b186-4806-a6c9-047e7b70e36e>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.092341, y: 0.004681}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: true
+  Orientation: PositionAndDirection
+- !<PinToMeshComponent/da25c640-e946-4102-bae9-2d93465f8c19>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.306367, y: 0.834175}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<SceneObject/dbd43204-4163-416b-ab13-a10131d5a5c1>
+  PrefabRemaps:
+    []
+  Name: Box 59
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -9.979833, y: 73.058350, z: 18.957355}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 8381e581-c3cc-4725-9616-a0ce49fdb6f5
+- !<SceneObject/dde97767-9235-4d59-a255-74fb8ede8d32>
+  PrefabRemaps:
+    []
+  Name: Box 37
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -38.838558, y: 98.715569, z: 16.867104}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> f1a2d3e2-8063-46df-bbc0-1383de54af69
+- !<PinToMeshComponent/ded27678-0873-4451-b5af-a84a0b618a7f>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.180197, y: 0.823706}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<PinToMeshComponent/e0cc4a3f-a222-4603-a0ee-776901e36c64>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.330309, y: 0.780346}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<PinToMeshComponent/e29f5480-456a-4a83-8ae6-7444c43a3861>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.215501, y: 0.878749}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<PinToMeshComponent/e2a19673-f720-40c4-abe5-aafdf75ede30>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.209147, y: 0.761717}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<SceneObject/e82de8a5-62d1-475c-ba4a-b7ee94490ed5>
+  PrefabRemaps:
+    []
+  Name: Box 2
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -17.417429, y: 33.015083, z: 52.902802}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 657eb1a0-bb90-4c51-9ad4-657bbafe12a3
+- !<SceneObject/e8520d0f-c2b8-4e6b-861c-2b46c51ee989>
+  PrefabRemaps:
+    []
+  Name: Box 14
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.786756, y: 86.352455, z: 16.237194}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 9c160aa1-0f0f-4996-8bd1-50353d56b3d2
+- !<SceneObject/e8f90196-0121-4eff-aa6d-c1746a872a23>
+  PrefabRemaps:
+    []
+  Name: Box 24
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -10.138850, y: 134.651093, z: -11.525991}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ebd7db38-9e37-4992-8334-117f31600079
+- !<PinToMeshComponent/ea2c865d-7f21-4f8c-af47-001c01d7455b>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.215911, y: 0.286464}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<SceneObject/eb6faacd-0cca-468f-a248-ea70d6815f0c>
+  PrefabRemaps:
+    []
+  Name: Box 28
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -9.508886, y: 93.267265, z: 22.541359}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b126b3a0-b939-49c9-a75b-e5dd389cafb1
+- !<PinToMeshComponent/ebd7db38-9e37-4992-8334-117f31600079>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.434417, y: 0.726563}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<PinToMeshComponent/ee02280c-3143-421c-880b-85c1d948f8de>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.299113, y: 0.228308}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<PinToMeshComponent/f1a2d3e2-8063-46df-bbc0-1383de54af69>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.120136, y: 0.935123}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<SceneObject/f3890fee-815b-4106-b9f8-2417bf6a47df>
+  PrefabRemaps:
+    []
+  Name: Box 33
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -3.381973, y: 137.074142, z: -29.518003}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> acd097b4-5fae-4c45-936d-b1584993452b
+- !<SceneObject/f4b8ebd4-800f-441d-b8f6-56a631de53a1>
+  PrefabRemaps:
+    []
+  Name: Box 16
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -17.503357, y: 90.141319, z: 14.523232}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 67ab9a0b-fa0d-4a8a-9758-228f92515f43
+- !<PinToMeshComponent/f6590d95-53ae-40ed-a4b8-c9a94daa684f>
+  PrefabRemaps:
+    []
+  Name: Pin To Mesh
+  Enabled: true
+  Target: !<reference> 7c000ca9-faec-4777-ae82-12a2cbb90b8d
+  PinUV: {x: 0.378265, y: 0.819023}
+  OffsetPosition: {x: 0.000000, y: 0.000000, z: 0.000000}
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+  UseVertexNormal: false
+  Orientation: OnlyPosition
+- !<SceneObject/f8de46e6-7778-48d1-a95c-e6f8af8ab0cf>
+  PrefabRemaps:
+    []
+  Name: Box 5
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -21.710857, y: 47.400543, z: 40.121117}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ce11487c-82c0-43b1-ac2f-24491f5894be
+- !<SceneObject/fbbb45dc-eb60-4d74-9418-df8fb90e210e>
+  PrefabRemaps:
+    []
+  Name: Box 56
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -35.350204, y: 97.238098, z: 17.848808}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.164313, y: 0.164313, z: 0.164313}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 664364c7-fec7-48d5-8223-63a03dcc6b9e
+- !<SceneObject/fc86a666-df05-4b55-9429-230bb44c3f27>
+  PrefabRemaps:
+    []
+  Name: Inner
+  Enabled: false
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 17fd838f-6e21-498a-825c-55897b04a61f
+    - !<own> 056d7577-bf79-4842-91aa-f8704a5ea131
+    - !<own> adf5db3c-ac85-4dd2-9196-ac89d46984ed
+    - !<own> e8520d0f-c2b8-4e6b-861c-2b46c51ee989
+    - !<own> fbbb45dc-eb60-4d74-9418-df8fb90e210e
+    - !<own> 0b27ea8c-a395-442d-a0a2-7c4af1d174e3
+    - !<own> 3f6d5fc6-b28c-4256-b846-46021541c6f3
+    - !<own> 07f20795-0766-43f4-9b98-d04f23c33913
+    - !<own> 6ff3f470-cec7-48c8-8620-d2f4fd80f8ec
+    - !<own> 5838155f-190a-4e44-b819-da531606aee7
+    - !<own> cb4c1d51-d9aa-4ef0-baf8-fa9e8fbc3811
+  Components:
+    []
+- !<RenderMeshVisual/fdf00616-baf5-43b4-ac81-053bd778156a>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 1a169ed2-abf7-4c4f-8145-73195f61b787
+  Mesh: !<reference> 8543cd67-a2c3-4909-9828-6802baccb7cc
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

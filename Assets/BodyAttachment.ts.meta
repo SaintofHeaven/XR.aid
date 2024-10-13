@@ -1,0 +1,39 @@
+- !<AssetImportMetadata/534a970f-ec7d-4d80-9fab-b67e0d9e2ef0>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> bd1e0e79-b429-48dd-b1ec-623a32aab0cc
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> bd1e0e79-b429-48dd-b1ec-623a32aab0cc
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> e15b7d7c-9ab8-45e3-ba12-f134e3eb1921
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/581c64bb-9734-4f27-8be4-fb283a16b460>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/e15b7d7c-9ab8-45e3-ba12-f134e3eb1921>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    bodyTracker: false
+    chestAttachment: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - bodyTracker: !<reference.ObjectTracking3D> 00000000-0000-0000-0000-000000000000
+      chestAttachment: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input Component.ObjectTracking3D bodyTracker
+    - // @input SceneObject chestAttachment
