@@ -2819,7 +2819,7 @@
   MeshShadowMode: None
   ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   ShadowDensity: 1.000000
-  Text: Kool-Aid
+  Text: AID
   Editable: false
   ShowEditingPreview: true
   TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
@@ -3199,17 +3199,15 @@
   ScriptInputsDefault:
     remoteServiceModule: true
     apiKey: true
-    question: true
-    stepInterval: true
   ScriptTypesDefault:
     {}
   ScriptInputs:
     "":
       remoteServiceModule: !<reference.RemoteServiceModule> 5e20adcf-5958-40ef-b6b2-6f7520b900a1
       apiKey: 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
-      question: "List me the steps for CPR:"
+      question: "Provide concise instructions. Respond with a numbered list of steps, each step on a new line. Do not include any introductory or concluding text. 1.If the person appears unresponsive, CHECK for responsiveness, breathing, life-threatening bleeding or other life-threatening conditions using shout-tap-shout 2. If the person does not respond and is not breathing or only gasping, CALL 9-1-1 3. Kneel beside the person. Place the person on their back on a firm, flat surface 4. 100 to 120 chest compressions per minute, 30 at a time. Give 2 breaths 5. Continue giving sets of 30 chest compressions and 2 breaths. Only write it based off our instructions. Limit it to 10 words per instruction"
       outputDisplay: !<reference.Text> 09d1ecbc-a37c-4a04-968d-c3f90fc631f5
-      stepInterval: !<float> 5.000000
+      stepInterval: !<float> 10.000000
   ScriptTypes:
     "":
       {}
