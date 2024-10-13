@@ -1,0 +1,42 @@
+- !<AssetImportMetadata/79ff388e-e468-45c1-99c8-381e8be6eabc>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 81a4fa9b-e7e5-483c-8841-9c333c3e2ca2
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 81a4fa9b-e7e5-483c-8841-9c333c3e2ca2
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> 810ffeb9-3b5a-445b-aabf-c515b883a1a4
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/bf11befe-844e-42ff-a538-53b62cc29653>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/810ffeb9-3b5a-445b-aabf-c515b883a1a4>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    apiKey: false
+    outputDisplay: false
+    question: false
+    remoteServiceModule: false
+    stepInterval: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - remoteServiceModule: !<reference.RemoteServiceModule> 5e20adcf-5958-40ef-b6b2-6f7520b900a1
+      apiKey: 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
+      question: "List me the steps for CPR:"
+      outputDisplay: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      stepInterval: !<float> 5.000000
+  ScriptTypes:
+    -
+      {}

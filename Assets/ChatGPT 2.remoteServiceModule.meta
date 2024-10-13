@@ -1,0 +1,14 @@
+- !<AssetImportMetadata/8873ec8e-8b32-477d-85df-df2592a59c70>
+  ImportedAssetIds:
+    RemoteServiceModule: !<reference> c91031ae-780a-4d94-a67b-4c233722fc2f
+  ImporterName: RemoteServiceModuleImporter
+  PrimaryAsset: !<reference> c91031ae-780a-4d94-a67b-4c233722fc2f
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/a12bdd30-1349-4262-9783-933b9fe9d09c>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
