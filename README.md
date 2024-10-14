@@ -1,6 +1,6 @@
 
 
-# XR.aid
+# XR.aid - https://devpost.com/software/kool-aid#updates
 ## Project: Emergency Medical Response XR Tool for Snapchat Spectacles 5.0
 This project is a cutting-edge Extended Reality (XR) application designed for the Snapchat Spectacles 5.0, aimed at revolutionizing emergency medical response for laypeople. The tool provides real-time, step-by-step guidance for performing critical medical procedures, enabling users to assist in emergency situations without any prior medical experience.
 
